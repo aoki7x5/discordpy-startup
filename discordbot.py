@@ -1,7 +1,11 @@
 from discord.ext import commands
 import os
 import traceback
-import random
+import asyncio #なんか必要らしい
+import discord #さっきpipで取り入れたやつだぞ！
+import random #ランダムな数字を作るモジュールだぞ！
+
+client = discord.Client()
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
