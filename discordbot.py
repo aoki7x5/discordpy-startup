@@ -23,7 +23,7 @@ async def ping(ctx):
 
 @bot.event
 async def on_message(message):
-    if message.content.startswith("!dice6"): #ここの!diceは好きなのにしていいぞ
+    if message.content.startswith("/dice6"): #ここの!diceは好きなのにしていいぞ
         if bot.user != message.author:
             num_random = random.randrange(1,6)
             m = str(num_random)
