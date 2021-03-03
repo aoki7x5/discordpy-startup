@@ -32,6 +32,7 @@ async def on_message(message):
             num_random = random.randrange(1,6)
             m = str(num_random)
             await client.send_message(message.channel, m)
+client.run("[手に入れたトークンを記入しよう]")
 
             
 @client.event
@@ -41,6 +42,7 @@ async def on_message(message):
             num_random = random.randrange(1,5)
             m = str(num_random)
             await client.send_message(message.channel, m)
+client.run("[手に入れたトークンを記入しよう]")
             
 @client.event
 async def on_message(message):
@@ -49,6 +51,7 @@ async def on_message(message):
             num_random = random.randrange(1,4)
             m = str(num_random)
             await client.send_message(message.channel, m)
+client.run("[手に入れたトークンを記入しよう]")
             
             
 @client.event
@@ -58,6 +61,7 @@ async def on_message(message):
             num_random = random.randrange(1,3)
             m = str(num_random)
             await client.send_message(message.channel, m)
+client.run("[手に入れたトークンを記入しよう]")
             
 @client.event
 async def on_message(message):
@@ -66,6 +70,7 @@ async def on_message(message):
             num_random = random.randrange(1,2)
             m = str(num_random)
             await client.send_message(message.channel, m)
+client.run("[手に入れたトークンを記入しよう]")
 
 @bot.command()
 async def ping(ctx):
